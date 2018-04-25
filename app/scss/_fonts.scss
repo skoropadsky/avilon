@@ -1,0 +1,8 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("fontawesome", "../fonts/webfonts/fa-brands-400");
+@include font-face("roboto-condensed", "../fonts/RobotoCondensedBold/RobotoCondensed-Bold", bold);
+@include font-face("roboto-condensed", "../fonts/RobotoCondensedLight/RobotoCondensed-Light", lighter);
+@include font-face("roboto-condensed", "../fonts/RobotoCondensedReular/RobotoCondensed-Regular");
